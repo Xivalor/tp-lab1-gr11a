@@ -2,11 +2,11 @@
 #include <math.h>
 
 int main() {
-    double R1, R2, R3;
-    double v1, v2, v3;
-    double Z;
+    double R1, R2, R3; // Радиусы шаров
+    double v1, v2, v3; // Объемы шаров
+    double Z; // Итоговое значение
 
-    printf("Введите радиус первого шара: ");
+    printf("Введите радиус первого шара: ");  
     scanf("%lf", &R1);
     printf("Введите радиус второго шара: ");
     scanf("%lf", &R2);
