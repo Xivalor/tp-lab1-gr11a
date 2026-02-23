@@ -2,9 +2,9 @@
 #include <math.h>
 
 int main() {
-    double R1, R2, R3; // Радиусы шаров
-    double v1, v2, v3; // Объемы шаров
-    double Z; // Итоговое значение
+    double R1, R2, R3;
+    double v1, v2, v3;
+    double Z;
     
     printf("Введите радиус первого шара: ");  
     scanf("%lf", &R1);
